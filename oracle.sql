@@ -15,4 +15,4 @@ where table_name in
 from all_tab_privs 
 where table_name in (select directory_name from dba_directories);
 
-jdbc:oracle:thin:@bdb1:1554:fastb spring context
+jdbc:oracle:thin:@bdb1:1554:fastb spring context1
